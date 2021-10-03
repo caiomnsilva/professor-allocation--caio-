@@ -10,4 +10,5 @@ public class ProfessorAllocationApplication {
 		SpringApplication.run(ProfessorAllocationApplication.class, args);
 	}
 	//Teste de Alteração(1)
+	//Teste de Alteração(2)
 }
