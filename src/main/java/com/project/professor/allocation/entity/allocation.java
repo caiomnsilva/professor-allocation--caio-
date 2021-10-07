@@ -67,6 +67,10 @@ public class allocation {
 		this.professor = professor;
 	}
 
+	public allocation() {
+		
+	}
+	
 	public Long getId() {
 		return id;
 	}

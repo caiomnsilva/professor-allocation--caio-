@@ -39,6 +39,10 @@ public class professor {
 		this.departmentId = departmentId;
 		this.department = department;
 	}
+	
+	public professor() {
+		
+	}
 
 	public Long getId() {
 		return id;
