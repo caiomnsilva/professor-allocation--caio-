@@ -45,7 +45,7 @@ public class allocation {
 	private Course course;
 	
 	@Column(name = "professor_id", nullable = false)
-	private Long profesorId;
+	private Long professorId;
 	
 	@ManyToOne(optional = false)
 	@JoinColumn(name = "professor_id", 
@@ -63,7 +63,7 @@ public class allocation {
 		this.end = end;
 		this.courseId = courseId;
 		this.course = course;
-		this.profesorId = profesorId;
+		this.professorId = profesorId;
 		this.professor = professor;
 	}
 
@@ -116,11 +116,11 @@ public class allocation {
 	}
 
 	public Long getProfesorId() {
-		return profesorId;
+		return professorId;
 	}
 
 	public void setProfesorId(Long profesorId) {
-		this.profesorId = profesorId;
+		this.professorId = profesorId;
 	}
 
 	public professor getProfessor() {
@@ -134,7 +134,7 @@ public class allocation {
 	@Override
 	public String toString() {
 		return "allocation [id=" + id + ", day=" + day + ", start=" + start + ", end=" + end + ", courseId=" + courseId
-				+ ", course=" + course + ", profesorId=" + profesorId + ", professor=" + professor + "]";
+				+ ", course=" + course + ", profesorId=" + professorId + ", professor=" + professor + "]";
 	}
 
 
